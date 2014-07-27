@@ -38,6 +38,15 @@ a { // treatment from art.sy - ref : http://artsy.github.io/blog/2012/04/10/css-
 	}
 }
 
+#content {
+	text-align: left;
+		li {
+			list-style-type: disc;
+			line-height: $font-size+8px;
+			margin-left: 34px;
+		}
+}
+
 footer {
 	margin: 50px 0 30px;
 	padding:  0 30px;
