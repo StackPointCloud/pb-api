@@ -2,3 +2,51 @@
 // BASE elements & color /////////////
 // Author: Ariel Jatib ///////////////
 //////////////////////////////////////
+
+body {
+	background: $white;
+	font: $font-stack;
+	text-rendering: auto;
+	color: $text-color;
+	}
+h1, h2, h3, h4 {
+	font-family: $font-stack-heading;
+	font-size: $font-size-heading;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	color: $blue;
+	border-bottom-color: $blue;
+	@include single-transition(all, 250ms, ease-out);
+	&:hover {
+		color: white;
+		background-color: $blue;
+		border-bottom-style: solid;
+	}
+}
+
+#content {
+	text-align: left;
+		li {
+			list-style-type: disc;
+			line-height: $font-size+8px;
+			margin-left: 34px;
+		}
+}
+
+footer {
+	font-size: 14px; //refactor ... consider variable
+	text-align: left;
+	color: #aaa;
+}
+
+//////////////////////////////////////
+// RESPONSIVE ////////////////////////
+// Only tablets for now
+
+@media (max-width: 767px) { 
+}

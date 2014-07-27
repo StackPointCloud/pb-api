@@ -2,3 +2,63 @@
 // LAYOUT ////////////////////////////
 // Author: Ariel Jatib ///////////////
 //////////////////////////////////////
+
+body {
+	text-align: center; /* for IE6 */
+}
+
+header {
+	background: url('../img/') no-repeat center top;
+	min-height: 60px;
+	margin-top: 40px;
+	h1 { //replacing header w logo
+		//text-indent: -9999px; 
+	}
+}
+
+a { // treatment from art.sy - ref : http://artsy.github.io/blog/2012/04/10/css-trick-adjusting-text-underlines/
+	display: inline-block;
+	position: relative;
+	padding: 2px;
+	&::after {
+		position: absolute;
+		left: 0;
+		height: 1.2em;
+		width: 100%;
+		margin-top: 3px;
+		display: inline-block;
+	}
+}
+
+#wrapper {
+	width: $page-width;
+	margin: 0 auto;
+	&.narrow {
+		width: $page-narrow;
+	}
+}
+
+footer {
+	margin: 50px 0 30px;
+	padding:  0 30px;
+	clear: both;
+}
+
+.hide { display: none; }
+
+
+//////////////////////////////////////
+// RESPONSIVE ////////////////////////
+// Only tablets for now. We're not doing anything complicated. 
+// Mobile phones: 320px
+
+@media (max-width: 767px) { 
+	#wrapper, #content {
+		width: $page-fluid;
+		padding: 0;
+		&.narrow {
+			width:  auto;
+			padding: 10px;
+		}
+	}		
+}
