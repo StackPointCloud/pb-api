@@ -3,6 +3,20 @@
 // Author: Ariel Jatib ///////////////
 //////////////////////////////////////
 
+#specification {
+	background-color: $light-gray;
+	padding: 10px;
+	overflow: hidden;
+}
+
+nav {
+	background-color: $blue;
+	max-width: 200px;
+	padding: 10px;
+	float: left;
+}
+
+
 //////////////////////////////////////
 // RESPONSIVE ////////////////////////
 // Only tablets for now

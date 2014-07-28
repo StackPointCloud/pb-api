@@ -31,7 +31,7 @@ a { // treatment from art.sy - ref : http://artsy.github.io/blog/2012/04/10/css-
 }
 
 #wrapper {
-	width: $page-width;
+	width: $page-fluid;
 	margin: 0 auto;
 	&.narrow {
 		width: $page-narrow;
@@ -48,7 +48,7 @@ a { // treatment from art.sy - ref : http://artsy.github.io/blog/2012/04/10/css-
 }
 
 footer {
-	margin: 50px 0 30px;
+	//margin: 50px 0 30px;
 	padding:  0 30px;
 	clear: both;
 }

@@ -120,7 +120,7 @@ a::after {
 }
 
 #wrapper {
-  width: 940px;
+  width: 100%;
   margin: 0 auto;
 }
 #wrapper.narrow {
@@ -137,7 +137,6 @@ a::after {
 }
 
 footer {
-  margin: 50px 0 30px;
   padding: 0 30px;
   clear: both;
 }
@@ -148,11 +147,23 @@ footer {
 
 @media (max-width: 767px) {
   #wrapper, #content {
-    width: 95%;
+    width: 100%;
     padding: 0;
   }
   #wrapper.narrow, #content.narrow {
     width: auto;
     padding: 10px;
   }
+}
+#specification {
+  background-color: #eeeeee;
+  padding: 10px;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #336699;
+  max-width: 200px;
+  padding: 10px;
+  float: left;
 }
