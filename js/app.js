@@ -24,7 +24,11 @@ benben.config(['$routeProvider',
       	templateUrl: 'partials/home.html',
       	controller:  'homeCtrl' 
       }).
+      when('/api', {
+        templateUrl: 'partials/api.html',
+        controller:  'apiSpecCtrl' 
+      }).
       otherwise({
-        redirectTo: '/home'
+        redirectTo: '/api'
       });
   }]);

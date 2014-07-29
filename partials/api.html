@@ -1,0 +1,13 @@
+<nav>
+	<ul>
+		<li ng-repeat="specification in apiSpec.specifications">
+			<a href="#{specification.name}}">{{specification.name}}</a>
+		</li>
+	</ul>
+</nav>
+<div id="specification">
+<div ng-repeat="specification in apiSpec.specifications">
+	<h1 id="#{{specification.name}}">{{specification.name}}</h1>
+	<p>{{specification.content}}</p>
+</div>
+</div>

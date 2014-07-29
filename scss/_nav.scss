@@ -10,12 +10,17 @@
 }
 
 nav {
-	background-color: $blue;
 	width: 200px;
 	padding: 10px;
 	float: left;
+	a {
+		text-decoration: none;
+	}
 }
 
+#content nav li {
+	list-style-type: none;
+}
 
 //////////////////////////////////////
 // RESPONSIVE ////////////////////////

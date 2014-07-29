@@ -1,0 +1,9 @@
+{
+	"document": "TEST API Spec",
+	"author" : "Henri Chinaski",
+	"specifications" : [
+		{"name" : "Introduction", "content" : "Welcome to this test specification. This copy is just dummy text. Check out the Lorem Ipsum further down."},
+		{"name" : "Actions", "content" : "Here go a list of crazy things you can do."},
+		{"name" : "Images", "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu sapien eu sem scelerisque fermentum vitae in metus. Curabitur lobortis lectus sit amet est accumsan egestas. In hac habitasse platea dictumst. Aenean nulla leo, suscipit eget arcu at, blandit semper urna. Phasellus tristique massa ut ipsum congue vehicula. Vestibulum sollicitudin ligula eget erat convallis, vel placerat ante dictum. Phasellus vestibulum, nisl vel gravida commodo, enim massa convallis dolor, quis vestibulum ipsum magna vel dolor. Fusce lacinia risus vitae justo pellentesque faucibus. Morbi consectetur massa ligula, non posuere libero lobortis eu. Duis quis lobortis ante. Sed ac suscipit dolor."}
+		]
+}

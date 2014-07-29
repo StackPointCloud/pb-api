@@ -162,8 +162,14 @@ footer {
 }
 
 nav {
-  background-color: #336699;
   width: 200px;
   padding: 10px;
   float: left;
+}
+nav a {
+  text-decoration: none;
+}
+
+#content nav li {
+  list-style-type: none;
 }
